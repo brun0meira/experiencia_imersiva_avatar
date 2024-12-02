@@ -1,12 +1,42 @@
 # Documentação semana 2 - Experiências Imersivas
 
-Antes de inicar, no desenvolvimento do humano virtual Bárbara, foram utilizadas três tecnologias principais:
+## Estrutura de pastas
+
+Segue a estrutura de arquivos atual do diretório:
+
+```
+├── assets
+│    ├── barbara_intro.mp3
+│    ├── interao_mapa.gif
+│    ├── MetaHuman_Barbie_face.gif
+│    ├── MetaHumanCreator_Body.gif
+│    ├── video_final.mp4
+│
+├── src
+│    ├── Barbara.mhb
+│
+├── README.md
+```
+
+-   Barbara.mhb: Arquivo .mhb da personalização do Avatar.
+-   barbara_intro.mp3: Audio gerado para integração com Avatar.
+-   video_final.mp4: Video Final da demo desenvolvida.
+-   interao_mapa.gif: Video da interação do ambiente em que o Avatar foi integrado.
+-   MetaHuman_Barbie_face.gif: Video com demonstração da facial do Avatar.
+-   MetaHumanCreator_Body.gif: Video com demonstração do corpo do Avatar.
+-   readme.md: Documentação oficial do projeto.
+
+## Introdução
+
+Antes de iniciar, no desenvolvimento do humano virtual Bárbara, foram utilizadas três tecnologias principais:
 
 - **MetaHuman Creator:** Ferramenta da Epic Games que permite a criação de humanos digitais com altíssimo realismo e personalização. Com ela, foi possível definir a aparência da Bárbara, ajustando detalhes como traços faciais, textura de pele e expressões para refletir sua personalidade acolhedora e amigável.
 
 - **ElevenLabs:** Plataforma avançada de text-to-speech utilizada para gerar o áudio das falas de Bárbara. Sua capacidade de criar vozes naturais e emocionais garantiu uma comunicação clara e empática, essencial para estabelecer uma conexão mais humanizada com os usuários.  
 
-- **Unreal Engine:** Ambiente de desenvolvimento que integrou todos os elementos do projeto, desde a modelagem e animação do avatar até a criação do cenário virtual. Foi utilizado o MetaHuman Animator para sincronizar expressões faciais com o áudio, além de ajustes no blueprint para implementar a interatividade e as animações no ambiente.  
+- **Unreal Engine:** Ambiente de desenvolvimento que integrou todos os elementos do projeto, desde a modelagem e animação do avatar até a criação do cenário virtual. Foi utilizado o MetaHuman Animator para sincronizar expressões faciais com o áudio, além de ajustes no blueprint para implementar a interatividade e as animações no ambiente.
+
+## Processo de desenvolvimento
 
 O humano virtual da Bárbara foi projetado com o propósito de transformar a experiência de compra em uma loja de roupas virtuais, oferecendo aos clientes uma interação personalizada e intuitiva. A sua principal função é atuar como uma assistente digital capaz de auxiliar os usuários na criação de avatares com corpos realistas e identificavéis, na experimentação virtual de roupas e na descoberta de combinações de peças que reflitam o estilo e as preferências individuais. A Bárbara não será apenas uma assistente, mas também uma figura amigável, acolhedora e prática, criada para tornar o processo de compra mais confortável e acessível.
 
