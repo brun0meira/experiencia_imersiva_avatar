@@ -48,3 +48,7 @@ O áudio gerado foi importado para o Unreal Engine e sincronizado a animação d
 
 Com essas etapas concluídas, foi registrado um video do processo final:
 
+https://github.com/user-attachments/assets/b82a702a-f4e3-4c9a-8b99-dbfa01c6c0f6
+
+
+
